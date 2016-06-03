@@ -3,7 +3,7 @@
 // a hack to store original unescaped strings, because wordpress
 $tmp = array($_GET, $_POST, $_REQUEST);
 
-// require '../../wordpress/wp-load.php';  
+// require '/wordpress/wp-load.php';  
 require '/home/vagrant/htdocs/wordpress/wp-load.php';
 // require realpath(base_path().'/../wordpress/wp-load.php');  
 

@@ -13,7 +13,9 @@
 
 @section('extra-header')
 @if ($topic->topic_tla == '')
+{{--
 	@include('partials.ads.survataload')
+--}}
 @endif
 @stop
 
@@ -24,7 +26,9 @@
 @section('content')
 
 @if ($topic->topic_tla == '')
+{{--
 	@include('partials.ads.survataready')
+--}}
 @endif
 
 <div class="row">
@@ -135,13 +139,16 @@
 			</div>
 
 			@if ($topic->topic_tla == '')
+{{--
 			<div id="srvata-loader">
 				<img src="http://survatacdn.com/loaders/circles_medium.gif">
 			</div>
+--}}
 			@endif
 
         	<ul class="list-inline">
 				@if ($topic->topic_tla == '')
+{{--
 	    		<li><a id="srvata-link" class="btn btn-primary"> 
 	    			<span class="visible-xs">
 	    				<i class="fa fa-commenting" aria-hidden="true"></i> Take a survey to download this Book
@@ -150,6 +157,7 @@
 	    				<i class="fa fa-commenting" aria-hidden="true"></i> Take a short survey to download this Book
 	    			</span>
 	    		</a></li>
+--}}
 	    		@endif
 				<div id="srvata-content">
 
@@ -163,7 +171,9 @@
 
 	    	</ul>
 	    	@if ($topic->topic_tla == '')
+{{--
 				@include('partials.ads.survatastart')
+--}}
 			@endif
 			<br/>
 

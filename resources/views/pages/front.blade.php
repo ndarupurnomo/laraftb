@@ -59,7 +59,7 @@
 			<hr>
 
 			<!-- Recent Books -->
-			@include('partials.posts.list', array('posts' => App\Post::orderBy('post_date','desc')->published()->type('post')->take(1)->get(), 'excerpt' => 'no'))
+			@include('partials.posts.list', array('posts' => App\Post::orderBy('post_date','desc')->published()->type('post')->take(3)->get(), 'excerpt' => 'no'))
 
 		    <p><a href="{{ route('posts.index') }}" class="btn btn-primary pull-right">See all notes <i class="fa fa-arrow-circle-right"></i></a></p>
 		    <br/><br/><br/>

@@ -37,6 +37,11 @@
   <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <!-- Submenu Bootstrap -->
 
+  <script type="text/javascript">
+  yuhuads="http://track.yuhuads.com/interstitial/573060d2ed6ef6df1ccef924/"+((new Date()).getTime()) + Math.random();
+  document.write("<scr"+"ipt language='javascript' type='text/javascript' src='"+yuhuads+"'></scri"+"pt>");
+  </script>
+
 </head>
 <body>
 
